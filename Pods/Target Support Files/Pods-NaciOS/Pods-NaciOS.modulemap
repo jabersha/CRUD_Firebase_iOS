@@ -1,0 +1,6 @@
+framework module Pods_NaciOS {
+  umbrella header "Pods-NaciOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
