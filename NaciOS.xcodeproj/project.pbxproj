@@ -21,6 +21,7 @@
 		FBED190121839399004CEFFC /* FIRCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED190021839399004CEFFC /* FIRCollectionReference.swift */; };
 		FBED190321839713004CEFFC /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED190221839713004CEFFC /* EncodableExtension.swift */; };
 		FBED190521839CD9004CEFFC /* SnapshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED190421839CD9004CEFFC /* SnapshotExtension.swift */; };
+		FBED19072183AFA3004CEFFC /* CadastroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED19062183AFA3004CEFFC /* CadastroController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		FBED190021839399004CEFFC /* FIRCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRCollectionReference.swift; sourceTree = "<group>"; };
 		FBED190221839713004CEFFC /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
 		FBED190421839CD9004CEFFC /* SnapshotExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotExtension.swift; sourceTree = "<group>"; };
+		FBED19062183AFA3004CEFFC /* CadastroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				FBED190021839399004CEFFC /* FIRCollectionReference.swift */,
 				FBED190221839713004CEFFC /* EncodableExtension.swift */,
 				FBED190421839CD9004CEFFC /* SnapshotExtension.swift */,
+				FBED19062183AFA3004CEFFC /* CadastroController.swift */,
 			);
 			path = NaciOS;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			files = (
 				FBED18F721836A34004CEFFC /* LivroController.swift in Sources */,
 				FBED18FF21838538004CEFFC /* FirestoreService.swift in Sources */,
+				FBED19072183AFA3004CEFFC /* CadastroController.swift in Sources */,
 				FBED18F921836AB0004CEFFC /* AlertService.swift in Sources */,
 				FBED190321839713004CEFFC /* EncodableExtension.swift in Sources */,
 				FB36353E21834F7900ADE7FD /* AppDelegate.swift in Sources */,

@@ -8,10 +8,11 @@
 
 import UIKit
 
-class LivroController: UITableViewController {
-
+	class LivroController: UITableViewController{
+    
     var livros = [Livro]()
     
+    @IBOutlet weak var nomeLb: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,7 +24,7 @@ class LivroController: UITableViewController {
     }
 
     @IBAction func addLivro(_ sender: Any) {
-        AlertService.addUser(in: self) { livro in
+        AlertService.add(in: self) { livro in
           FirestoreService.shared.create(for: livro, in: .livros)
             
         }
@@ -38,7 +39,8 @@ class LivroController: UITableViewController {
         let livro = livros[indexPath.row]
         
         cell.textLabel?.text = livro.titulo
-        cell.textLabel?.text = livro.autor
+        cell.detailTextLabel?.text = livro.autor
+        cell.detailTextLabel?.textAlignment = NSTextAlignment.right
         return cell
     }
     

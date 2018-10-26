@@ -14,7 +14,7 @@ class AlertService{
     
     // add
     
-    static func addUser(in vc: UIViewController, completion: @escaping (Livro) -> Void) {
+    static func add(in vc: UIViewController, completion: @escaping (Livro) -> Void) {
         let alert = UIAlertController(title: "Add Livro", message: nil, preferredStyle: .alert)
         alert.addTextField { (livroTF) in
             livroTF.placeholder = "Titulo"
