@@ -12,7 +12,7 @@ import UIKit
     
     var livros = [Livro]()
     
-    @IBOutlet weak var nomeLb: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,12 +35,13 @@ import UIKit
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
+        let cell = UITableViewCell(style: .value1, reuseIdentifier: nil)
         let livro = livros[indexPath.row]
         
         cell.textLabel?.text = livro.titulo
         cell.detailTextLabel?.text = livro.autor
-        cell.detailTextLabel?.textAlignment = NSTextAlignment.right
+        cell.detailTextLabel?.textColor = UIColor .purple
+
         return cell
     }
     
